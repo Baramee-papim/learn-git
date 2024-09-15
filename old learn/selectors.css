@@ -1,0 +1,45 @@
+body {
+    background-color: #bdc3c7;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+
+li {
+    color: blue;
+}
+
+div>p {
+    background-color: yellow;
+}
+
+.text {
+    border: red;
+
+}
+
+input {
+    border-color: red;
+    border-width: 3px;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid rgb(31, 120, 45);
+}
+
+input[type=text] {
+    background-color: #9b59b6;
+}
+
+h1:hover {
+    color: blue;
+}

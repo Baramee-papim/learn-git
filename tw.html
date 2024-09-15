@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            background-color: black;
+            margin: 0;
+        }
+
+        .side-bar {
+            display: flex;
+            flex: 1;
+            justify-content: flex-end;
+
+
+        }
+
+        .content {
+            flex: 1;
+            background-color: green;
+        }
+
+        .searchbox {
+            flex: 1;
+            background-color: yellow;
+        }
+
+        .sidebar-container {
+
+            width: 250px;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            height: 58px;
+            width: 100%;
+            padding: 4px 0;
+            margin-top: 4px;
+
+
+        }
+
+
+
+        .nav-menu>.group>span {
+            margin-left: 20px;
+            color: white;
+        }
+
+        .group {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border-radius: 24px;
+            background-color: black;
+        }
+
+        .group:hover {
+            background-color: #16181c;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="side-bar">
+        <div class="sidebar-container">
+            <div class="nav-menu"></div>
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Home</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Explore</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Notifications</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Messages</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Bookmarks</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Lits</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>Profile</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="group">
+                    <span>More</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="content"></div>
+    <div class="searchbox"></div>
+</body>
+
+</html>
